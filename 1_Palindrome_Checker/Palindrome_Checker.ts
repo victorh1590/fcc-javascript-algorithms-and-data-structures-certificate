@@ -2,12 +2,12 @@ function palindrome(str: string): Boolean {
   let rx: RegExp = /[\W\s_]/gi;
   let text: string = str.trim().replace(rx, "").toLowerCase();
   let middle: number = (text.length - 1) / 2;
-  let i: number = 0; 
+  let i: number = 0;
   let j: number = text.length - 1;
   while (i <= Math.floor(middle) && j >= Math.floor(middle + 1) && j != i) {
-   if(text[i++] !== text[j--]) return false;
-   i++;
-   j--;
+    if (text[i++] !== text[j--]) return false;
+    i++;
+    j--;
   }
   return true;
 }
