@@ -18,6 +18,7 @@ Otherwise, return {status: "OPEN", change: [...]}, with the change due in coins 
 
 Currency Unit	Amount
 
+| Currency              | Value             	|
 | Penny               	| $0.01 (PENNY)      	|
 | Nickel              	| $0.05 (NICKEL)     	|
 | Dime                	| $0.1 (DIME)        	|
